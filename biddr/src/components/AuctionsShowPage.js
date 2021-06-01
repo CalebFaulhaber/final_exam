@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import AuctionsDetails from './AuctionDetails';
 import { Auction } from '../requests';
 import AuctionDetails from './AuctionDetails';
+import BidList from './BidList'
 
 class AuctionShowPage extends Component {
   costructor(props) {
@@ -33,7 +33,10 @@ class AuctionShowPage extends Component {
           current_price={ current_price }
           end_date={ end_date }
         />
-        
+        <h2>Privous Bids</h2>
+        <BidList
+          bids={ this.state.bids }
+        />
       </main>
     )
   }
