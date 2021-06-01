@@ -3,7 +3,7 @@ import NewAuctionForm from './NewAuctionForm';
 import { Auction } from '../requests';
 
 const NewAuctionPage = (props) => {
-  fucntion createAuction(params) {
+  function createAuction(params) {
     Auction.create(params)
       .then((auction) => {
         const id = auction.id;
@@ -13,7 +13,7 @@ const NewAuctionPage = (props) => {
 
   return(
     <div>
-      <NewQuestionForm createAuction={ createAuction } />
+      <NewAuctionForm createAuction={ createAuction } />
     </div>
   )
 }
