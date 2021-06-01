@@ -120,3 +120,746 @@ FOREIGN KEY ("user_id")
   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   [1m[36mBid Load (0.5ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
   [1m[36mAuction Load (0.4ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mBid Load (1.0ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (1.0ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mBid Load (0.5ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (0.4ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mBid Load (0.4ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (0.6ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (3.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "caleb"], ["email", "caleb@faul.com"], ["password_digest", "$2a$12$MLrPmUblaKepFObG2D4uOuET4bqId2h6hujoBQCVWvfN5/8SrGWzG"], ["created_at", "2021-06-01 01:44:46.004316"], ["updated_at", "2021-06-01 01:44:46.004316"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Bertha Kerluke"], ["email", "Bertha@Kerluke.com"], ["password_digest", "$2a$12$OZVoLTTmY8AHe7JSTVOTzOx0jNHRt3xLLtZwWIj2ws65SskN6lEIG"], ["created_at", "2021-06-01 01:44:46.483687"], ["updated_at", "2021-06-01 01:44:46.483687"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Bethel Bartoletti"], ["email", "Bethel@Bartoletti.com"], ["password_digest", "$2a$12$XKVLDDRsVRyQJrK0G0kUK..7tk7ZNKkNU1nKOnS553lMdxyn2CZNW"], ["created_at", "2021-06-01 01:44:46.735482"], ["updated_at", "2021-06-01 01:44:46.735482"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Blanch Wolff"], ["email", "Blanch@Wolff.com"], ["password_digest", "$2a$12$HEmZ1faYzMfhA3R82OQtWe.1EcO8UpfVcgBhh6Ad.r6083Nvm.bk."], ["created_at", "2021-06-01 01:44:46.980031"], ["updated_at", "2021-06-01 01:44:46.980031"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Sherice O'Conner"], ["email", "Sherice@O'Conner.com"], ["password_digest", "$2a$12$qZWAF18nQwYDvkx/g.33oOthLp5Unqw0tDB1Hai.fzGWW7B.RH5mS"], ["created_at", "2021-06-01 01:44:47.221961"], ["updated_at", "2021-06-01 01:44:47.221961"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Romeo Johnston"], ["email", "Romeo@Johnston.com"], ["password_digest", "$2a$12$18.wnF9C3D6h6xzDoA3MiemCtu8g0k6Mugiebq8XMS1kcUgwLYypq"], ["created_at", "2021-06-01 01:44:47.462232"], ["updated_at", "2021-06-01 01:44:47.462232"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Janise Torp"], ["email", "Janise@Torp.com"], ["password_digest", "$2a$12$uvR8GSktIzGksHd9oB1knevSaH.wC4QCxiCNRguWLiqqoh3pbZoc6"], ["created_at", "2021-06-01 01:44:47.710071"], ["updated_at", "2021-06-01 01:44:47.710071"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Luigi Metz"], ["email", "Luigi@Metz.com"], ["password_digest", "$2a$12$oHMFufa0lSENDBuWOF9p6eeG0aM.DlPlk1BqcHc92SoxhGfNENemG"], ["created_at", "2021-06-01 01:44:47.959537"], ["updated_at", "2021-06-01 01:44:47.959537"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Sammy Hermiston"], ["email", "Sammy@Hermiston.com"], ["password_digest", "$2a$12$UJiVS6vu2x9H2r3RxOraL.INf6TruYNbDuUShUvSi4tbVkO6JhAKe"], ["created_at", "2021-06-01 01:44:48.201958"], ["updated_at", "2021-06-01 01:44:48.201958"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Anglea Brown"], ["email", "Anglea@Brown.com"], ["password_digest", "$2a$12$W1w/dvlGfJpy5N44ZR.XLukxmkzIPcZUCsYYTVbtkk5FRlQHG4uQG"], ["created_at", "2021-06-01 01:44:48.442822"], ["updated_at", "2021-06-01 01:44:48.442822"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Burl Shanahan"], ["email", "Burl@Shanahan.com"], ["password_digest", "$2a$12$4jiojigfQA1ePxbBPZfF6eNxlRv1v/GVoEunGrPtdVYvzD7iIxNQy"], ["created_at", "2021-06-01 01:44:48.684097"], ["updated_at", "2021-06-01 01:44:48.684097"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (2.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (0.3ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "caleb"], ["email", "caleb@faul.com"], ["password_digest", "$2a$12$cBmJ3q1sPWdkNPtJDtsmu.7jT0A3YckB4jfZivjYqXdDN8pqOb0I6"], ["created_at", "2021-06-01 01:48:10.914154"], ["updated_at", "2021-06-01 01:48:10.914154"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Phillis Bauch"], ["email", "Phillis@Bauch.com"], ["password_digest", "$2a$12$gFBlwLBBqd6iIWWMS2Ku6udqOML554SWxmMDSYGvrDVBSi.lfYM4q"], ["created_at", "2021-06-01 01:48:11.376055"], ["updated_at", "2021-06-01 01:48:11.376055"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Jamison Brown"], ["email", "Jamison@Brown.com"], ["password_digest", "$2a$12$w3ADSrSLHqmk9e0/BAUL0e1Q2Gj3HXNEeF2ODrwwcR1faienZ0aJC"], ["created_at", "2021-06-01 01:48:11.629796"], ["updated_at", "2021-06-01 01:48:11.629796"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ethan Wyman"], ["email", "Ethan@Wyman.com"], ["password_digest", "$2a$12$JDgy88nsenheeXSoZFzrNeBBLLSga8CSquelCniGVaSIHGzRdgMDC"], ["created_at", "2021-06-01 01:48:11.883680"], ["updated_at", "2021-06-01 01:48:11.883680"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Jackson Boyer"], ["email", "Jackson@Boyer.com"], ["password_digest", "$2a$12$95FMwKEs8dXEc9N7z1pqrOSWlNhD/UcKU2GV27S4NZIyeFIuHP6iC"], ["created_at", "2021-06-01 01:48:12.131033"], ["updated_at", "2021-06-01 01:48:12.131033"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Jack Beatty"], ["email", "Jack@Beatty.com"], ["password_digest", "$2a$12$QlbnNqVgFiIsjZHHw8eng.k5/wFsfzHCDofKOhFDTMDk03pIy.9.S"], ["created_at", "2021-06-01 01:48:12.374862"], ["updated_at", "2021-06-01 01:48:12.374862"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Earlie Lang"], ["email", "Earlie@Lang.com"], ["password_digest", "$2a$12$Z1.2Xp0huFueSU10.R5pu.GLL1KG1EkQo2ZZ9u66zzPBM.EewwVvG"], ["created_at", "2021-06-01 01:48:12.613581"], ["updated_at", "2021-06-01 01:48:12.613581"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Santos Beer"], ["email", "Santos@Beer.com"], ["password_digest", "$2a$12$7sItzggLY5OI7MxDLO8KVe0GTV7DAuz6k6tP8ueWTjXP1jk17JDTW"], ["created_at", "2021-06-01 01:48:12.855724"], ["updated_at", "2021-06-01 01:48:12.855724"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "America Funk"], ["email", "America@Funk.com"], ["password_digest", "$2a$12$ygmyZTQ/y7ryWaxz2aR3pe4H5zli.tKP1jdipc6Nuca49WGfOjyPW"], ["created_at", "2021-06-01 01:48:13.096568"], ["updated_at", "2021-06-01 01:48:13.096568"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "George Monahan"], ["email", "George@Monahan.com"], ["password_digest", "$2a$12$9N0EoiYG8zuHK1nb6tbKee3nrB7YaPoKDJ7eb2.J1g8TKLUeBHA7W"], ["created_at", "2021-06-01 01:48:13.342631"], ["updated_at", "2021-06-01 01:48:13.342631"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tiffani Sipes"], ["email", "Tiffani@Sipes.com"], ["password_digest", "$2a$12$HilCCeTbiwM6iz/US./GcuvSylbfFejO1uvbSP8.pbvs5bwjpaN3."], ["created_at", "2021-06-01 01:48:13.590810"], ["updated_at", "2021-06-01 01:48:13.590810"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.5ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 12]]
+  [1m[36mBid Update All (0.4ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 12]]
+  [1m[36mUser Destroy (1.0ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 12]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 13]]
+  [1m[36mBid Update All (0.4ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 13]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 13]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 14]]
+  [1m[36mBid Update All (0.2ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 14]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 14]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 15]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 15]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 15]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 16]]
+  [1m[36mBid Update All (0.5ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 16]]
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 16]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (1.0ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 17]]
+  [1m[36mBid Update All (0.4ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 17]]
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 17]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 18]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 18]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 18]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 19]]
+  [1m[36mBid Update All (0.4ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 19]]
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 19]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 20]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 20]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 20]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 21]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 21]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 21]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 22]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 22]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 22]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (0.3ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "caleb"], ["email", "caleb@faul.com"], ["password_digest", "$2a$12$smchf.Utrb743WIAK7ej5uNjl8GZqHAncyq7u/U49n1mFoP9VK5dK"], ["created_at", "2021-06-01 01:50:16.061855"], ["updated_at", "2021-06-01 01:50:16.061855"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Maryjo Jerde"], ["email", "Maryjo@Jerde.com"], ["password_digest", "$2a$12$MDva851/Atd3saXm8Wb/fuDzx7jqGMg0qTVuhUltzYgu40rQach8K"], ["created_at", "2021-06-01 01:50:16.530457"], ["updated_at", "2021-06-01 01:50:16.530457"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Dierdre Ankunding"], ["email", "Dierdre@Ankunding.com"], ["password_digest", "$2a$12$w6JUObHDm1t6tD9e9witx.i2gEx7Hdloopv3.WPNFXc0nVfH.K52O"], ["created_at", "2021-06-01 01:50:16.783259"], ["updated_at", "2021-06-01 01:50:16.783259"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Inge Dietrich"], ["email", "Inge@Dietrich.com"], ["password_digest", "$2a$12$zoqIU9Xz8nWH1T/ZV5NwXO38.863FI7GLZlFfdES33uaXVgQRBQIa"], ["created_at", "2021-06-01 01:50:17.032022"], ["updated_at", "2021-06-01 01:50:17.032022"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mohammed Heathcote"], ["email", "Mohammed@Heathcote.com"], ["password_digest", "$2a$12$WZEG7weIJ1TMolywJiKCI.m4BHAuKK4xICRvbqIZXBbjZtH8hflR6"], ["created_at", "2021-06-01 01:50:17.277458"], ["updated_at", "2021-06-01 01:50:17.277458"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Quintin Balistreri"], ["email", "Quintin@Balistreri.com"], ["password_digest", "$2a$12$ZpgM1/2B1SHILwlJFfdXaOFN3emlnK7EBSbtvNDKkjBgKp5YyjGf."], ["created_at", "2021-06-01 01:50:17.524105"], ["updated_at", "2021-06-01 01:50:17.524105"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Calista Bahringer"], ["email", "Calista@Bahringer.com"], ["password_digest", "$2a$12$V5n8cATy7ORtSoAzMu8cX.LZB.ZEspe73oLCTxxx6F63zOp0MYK2e"], ["created_at", "2021-06-01 01:50:17.770092"], ["updated_at", "2021-06-01 01:50:17.770092"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Giovanni Cronin"], ["email", "Giovanni@Cronin.com"], ["password_digest", "$2a$12$4SCyM1j33xTtkci3Wn066Oq7Q4g5BOviO/DEQTqF8mWVeUYjqaPVa"], ["created_at", "2021-06-01 01:50:18.018025"], ["updated_at", "2021-06-01 01:50:18.018025"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tessie Rau"], ["email", "Tessie@Rau.com"], ["password_digest", "$2a$12$PtycQXlGACFTxrUO4KAjNuO1klHa9ZwleolTiSRAW5Mb4rsVY3xfO"], ["created_at", "2021-06-01 01:50:18.265071"], ["updated_at", "2021-06-01 01:50:18.265071"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Archie Abshire"], ["email", "Archie@Abshire.com"], ["password_digest", "$2a$12$3/U5OJPB1StdXQvQG1SaZOjm68WXI9p1HJ2xNfG7hjJT1C/Dayt96"], ["created_at", "2021-06-01 01:50:18.507876"], ["updated_at", "2021-06-01 01:50:18.507876"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Jordan Schmitt"], ["email", "Jordan@Schmitt.com"], ["password_digest", "$2a$12$KgkBxDnHFayznI8Xa244Q.OP0N4d95ZnQOGKNQeOli1/ddjlJBMKq"], ["created_at", "2021-06-01 01:50:18.748025"], ["updated_at", "2021-06-01 01:50:18.748025"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (2.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford Fiesta"], ["description", "[\"Tool kit\", \"\\\"Flipper\\\" liftgate glass\", \"4-wheel/4-channel anti-lock brake system (ABS)\", \"12V pwr outlet\", \"First aid kit\", \"Run flat tires\", \"Body color sill extension\", \"Locking glove box\", \"3-point ELR/ALR rear seat belts at all positions\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2016-12-06 00:00:00"], ["created_at", "2021-06-01 01:50:18.761845"], ["updated_at", "2021-06-01 01:50:18.761845"], ["user_id", 33]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "BMW X5"], ["description", "[\"Tool kit\", \"Electronic control braking (ECB)\", \"4.6L DOHC 32-valve V8 engine -inc: DI & SFI dual fuel injection, dual variable valve timing w/intelligence & electronically controlled intake (VVT-iE), aluminum block & heads\", \"Cloth covered headliner\", \"1.8L DOHC 16-valve I4 engine -inc: engine cover\", \"Variable intermittent windshield wipers w/mist function\", \"Universal garage door opener\", \"Tilt/telescoping steering column\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2017-10-14 00:00:00"], ["created_at", "2021-06-01 01:50:18.769858"], ["updated_at", "2021-06-01 01:50:18.769858"], ["user_id", 28]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKZ"], ["description", "[\"Dana 44/226mm rear axle\", \"Dual front & rear cup holders\", \"Rear body-color spoiler\", \"Body color door handles\", \"Brake assist\", \"Silver finish interior door handles\", \"Cargo compartment lamp\", \"Impact-dissipating upper interior trim\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2020-10-13 00:00:00"], ["created_at", "2021-06-01 01:50:18.776814"], ["updated_at", "2021-06-01 01:50:18.776814"], ["user_id", 31]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Buick Riveria"], ["description", "[\"Rear door child safety locks\", \"LED lights -inc: brake lamps, tail lamps, license plate\", \"Body color front/rear bumpers\", \"Pwr front windows w/(1) touch up/down feature\", \"Chrome bodyside molding\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2020-05-08 00:00:00"], ["created_at", "2021-06-01 01:50:18.783724"], ["updated_at", "2021-06-01 01:50:18.783724"], ["user_id", 24]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Corolla"], ["description", "[\"Foldable front door storage pockets\", \"Reclining front bucket seats -inc: active head restraints, double-thickness foam in front seats\", \"Body color door handles\", \"Fixed long mast antenna\", \"High performance suspension\", \"Immobilizer system\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2019-04-28 00:00:00"], ["created_at", "2021-06-01 01:50:18.790269"], ["updated_at", "2021-06-01 01:50:18.790269"], ["user_id", 27]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Honda Civic"], ["description", "[\"Rear window defroster\", \"All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor\", \"3-point ELR driver seat belt w/pretensioner & load limiter\", \"Pwr tilt/slide moonroof -inc: 1-touch open/close\", \"Cloth covered headliner\", \"Body color front license plate brow\", \"8-speed automatic transmission -inc: intelligence (ECT-i), gated shifter, sequential sport-shift mode\", \"Rear passenger map pockets\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2017-02-01 00:00:00"], ["created_at", "2021-06-01 01:50:18.796926"], ["updated_at", "2021-06-01 01:50:18.796926"], ["user_id", 33]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKX"], ["description", "[\"Anti-lock 4-wheel performance disc brakes\", \"Driver & front passenger advanced multistage airbags w/occupant sensors\", \"Child restraint seat anchors for outboard positions\", \"\\\"Flipper\\\" liftgate glass\", \"Bright pedals\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2020-12-28 00:00:00"], ["created_at", "2021-06-01 01:50:18.803494"], ["updated_at", "2021-06-01 01:50:18.803494"], ["user_id", 28]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKS"], ["description", "[\"60/40 split fold-down rear seat w/outboard adjustable headrests\", \"Run flat tires\", \"Dual chrome exhaust tips\", \"Pwr rack & pinion performance tuned steering\", \"4.6L DOHC 32-valve V8 engine -inc: DI & SFI dual fuel injection, dual variable valve timing w/intelligence & electronically controlled intake (VVT-iE), aluminum block & heads\", \"Front & rear passenger folding assist grips\", \"Pwr front vented disc/rear drum brakes\", \"XM satellite radio receiver -inc: 90 day trial subscription\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2018-03-30 00:00:00"], ["created_at", "2021-06-01 01:50:18.812008"], ["updated_at", "2021-06-01 01:50:18.812008"], ["user_id", 28]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford Focus"], ["description", "[\"Scratch-resistant paint clearcoating\", \"60/40 folding rear seat\", \"Dual-zone automatic climate control system -inc: smog sensor, auto recirculation, clear air filter, pollen filter\", \"Rain-sensing wipers\", \"Dual front 2-stage airbags -inc: passenger occupant classification system w/twin-chamber airbag\", \"Trim-panel-mounted storage net\", \"Roof mounted antenna\", \"3.73 axle ratio\", \"Front/rear spot-lamp illumination\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2016-11-18 00:00:00"], ["created_at", "2021-06-01 01:50:18.818674"], ["updated_at", "2021-06-01 01:50:18.818674"], ["user_id", 28]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKS"], ["description", "[\"Leather-wrapped parking brake handle\", \"Run flat tires\", \"Anti-lock 4-wheel performance disc brakes\", \"Security alarm\", \"High performance suspension\", \"Body color door handles\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2018-05-06 00:00:00"], ["created_at", "2021-06-01 01:50:18.825054"], ["updated_at", "2021-06-01 01:50:18.825054"], ["user_id", 25]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Cube"], ["description", "[\"Anti-lock 4-wheel performance disc brakes\", \"Body color sill extension\", \"Vibration-dampening liquid-filled engine mounts\", \"Black windshield molding\", \"6.1L SRT V8 \\\"Hemi\\\" engine\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2017-12-25 00:00:00"], ["created_at", "2021-06-01 01:50:18.831254"], ["updated_at", "2021-06-01 01:50:18.831254"], ["user_id", 32]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln Navigator"], ["description", "[\"Floor carpeting\", \"Emergency interior trunk release\", \"Pwr windows\", \"Locking glove box\", \"Leather-wrapped parking brake handle\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2020-03-20 00:00:00"], ["created_at", "2021-06-01 01:50:18.837233"], ["updated_at", "2021-06-01 01:50:18.837233"], ["user_id", 29]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.6ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Rogue"], ["description", "[\"Direct-type tire pressure monitor system\", \"Enhanced accident response system unlocks the doors, shuts off the fuel pump and turns on interior lights after airbag deploys\", \"Intermittent rear wiper w/washer\", \"Carpeted cargo area\", \"Dual-zone automatic climate control system -inc: smog sensor, auto recirculation, clear air filter, pollen filter\", \"160-amp alternator\", \"Child safety rear door locks\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2018-06-13 00:00:00"], ["created_at", "2021-06-01 01:50:18.844994"], ["updated_at", "2021-06-01 01:50:18.844994"], ["user_id", 27]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.6ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Honda Accord"], ["description", "[\"1.8L DOHC 16-valve I4 engine -inc: engine cover\", \"Rear body-color spoiler\", \"Passenger assist handles\", \"Immobilizer system\", \"Rear passenger map pockets\", \"Pwr 8-way driver seat w/4-way front passenger seat\", \"Rear-window defogger w/auto-off timer\", \"Dual-zone automatic climate control system -inc: smog sensor, auto recirculation, clear air filter, pollen filter\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2021-05-02 00:00:00"], ["created_at", "2021-06-01 01:50:18.854468"], ["updated_at", "2021-06-01 01:50:18.854468"], ["user_id", 32]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Durango"], ["description", "[\"Fasten seat belt warning light/chime\", \"6.5\\\" touch screen display\", \"Rain-sensing wipers\", \"Laminated side window glass\", \"Child restraint seat anchors for outboard positions\", \"Tool kit\", \"20\\\" x 9.0\\\" front & 20\\\" x 10.0\\\" rear aluminum wheels\", \"LATCH-ready child seat anchor system\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2016-11-30 00:00:00"], ["created_at", "2021-06-01 01:50:18.861271"], ["updated_at", "2021-06-01 01:50:18.861271"], ["user_id", 28]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Chevy Malibu"], ["description", "[\"Floor carpeting\", \"Grain-matched wood trim -inc: center console, dash, door panels\", \"6.5\\\" touch screen display\", \"4-wheel ventilated pwr disc brakes -inc: brake override system\", \"Front & rear passenger folding assist grips\", \"Supplemental side curtain air bags\", \"Electrochromic rearview mirror\", \"Front/rear spot-lamp illumination\", \"Body color front license plate brow\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2018-08-31 00:00:00"], ["created_at", "2021-06-01 01:50:18.868235"], ["updated_at", "2021-06-01 01:50:18.868235"], ["user_id", 33]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.7ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford F150"], ["description", "[\"Side-impact door beams\", \"Brake assist\", \"Center console\", \"Dual front illuminated visor vanity mirrors\", \"Emergency interior trunk release\", \"Vehicle dynamics integrated management (VDIM) system -inc: vehicle stability control (VSC), traction control (TRAC)\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2018-02-16 00:00:00"], ["created_at", "2021-06-01 01:50:18.875622"], ["updated_at", "2021-06-01 01:50:18.875622"], ["user_id", 30]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.6ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Durango"], ["description", "[\"Brake assist\", \"Full-size spare tire w/aluminum alloy wheel\", \"Security alarm\", \"HomeLink universal transceiver\", \"Full-time all-wheel drive\", \"Tachometer\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2020-01-26 00:00:00"], ["created_at", "2021-06-01 01:50:18.883034"], ["updated_at", "2021-06-01 01:50:18.883034"], ["user_id", 29]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.6ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Camry"], ["description", "[\"Independent strut front suspension w/stabilizer bar\", \"Compact spare tire\", \"Front wheel drive\", \"Anti-lock 4-wheel performance disc brakes\", \"Compact spare tire\", \"Chrome bodyside molding\", \"Chrome bodyside molding\", \"Daytime running lights (DRL)\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2016-08-18 00:00:00"], ["created_at", "2021-06-01 01:50:18.890468"], ["updated_at", "2021-06-01 01:50:18.890468"], ["user_id", 23]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Cube"], ["description", "[\"Xenon high-intensity discharge (HID) headlamps -inc: adaptive front lighting system, delayed auto-off\", \"Roof mounted antenna\", \"1.8L DOHC 16-valve I4 engine -inc: engine cover\", \"Optitron electroluminescent instrumentation\", \"Electric pwr rack & pinion steering (EPS)\", \"Intermittent rear wiper w/washer\", \"Bright pedals\", \"Daytime running lights (DRL)\"]"], ["starting_price", 500], ["current_price", 0], ["reserve_price", 1000], ["end_date", "2018-08-15 00:00:00"], ["created_at", "2021-06-01 01:50:18.899759"], ["updated_at", "2021-06-01 01:50:18.899759"], ["user_id", 25]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (1.8ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 23]]
+  [1m[36mBid Update All (0.4ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 23]]
+  [1m[36mUser Destroy (0.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 23]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 24]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 24]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 24]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.5ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 25]]
+  [1m[36mBid Update All (0.5ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 25]]
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 25]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.6ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 26]]
+  [1m[36mBid Update All (0.6ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 26]]
+  [1m[36mUser Destroy (0.8ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 26]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 27]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 27]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 27]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 28]]
+  [1m[36mBid Update All (0.2ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 28]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 28]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 29]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 29]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 29]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 30]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 30]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 30]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 31]]
+  [1m[36mBid Update All (0.2ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 31]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 31]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 32]]
+  [1m[36mBid Update All (1.0ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 32]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 32]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 33]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 33]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 33]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (0.3ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 4]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 10]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 5]]
+  [1m[36mAuction Destroy (0.5ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 13]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 13]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 2]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 7]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 12]]
+  [1m[36mAuction Destroy (0.2ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 12]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 18]]
+  [1m[36mAuction Destroy (0.2ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 18]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 17]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 17]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 3]]
+  [1m[36mAuction Destroy (0.2ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 11]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 14]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 14]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 1]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 6]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 16]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 16]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 19]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 19]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 20]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 20]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 8]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 9]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 9]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 15]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 15]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "caleb"], ["email", "caleb@faul.com"], ["password_digest", "$2a$12$j1l5eCuvKUz69bfUbkj3kuiWnkWp9zOchEuQVbOKvSCl9ipVMY5j."], ["created_at", "2021-06-01 01:52:02.746489"], ["updated_at", "2021-06-01 01:52:02.746489"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Nobuko White"], ["email", "Nobuko@White.com"], ["password_digest", "$2a$12$EhJVS3TQPuPcyHtx5UJYOO8cQ2PenNIboqPZSsc.zYEQ2W6QuAOpm"], ["created_at", "2021-06-01 01:52:03.212739"], ["updated_at", "2021-06-01 01:52:03.212739"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Johnathon Harber"], ["email", "Johnathon@Harber.com"], ["password_digest", "$2a$12$iFuvrHsxx6ygqq081N09ze4L558wpFnlnFZuMNzwCw/dHF9YubXd6"], ["created_at", "2021-06-01 01:52:03.455709"], ["updated_at", "2021-06-01 01:52:03.455709"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cristobal Fritsch"], ["email", "Cristobal@Fritsch.com"], ["password_digest", "$2a$12$DRujMDs.iN1bk6MlMyM7NesBmM2YfWO51FFJkhrrTOsD9lXAB5OK2"], ["created_at", "2021-06-01 01:52:03.696714"], ["updated_at", "2021-06-01 01:52:03.696714"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Marcus Heller"], ["email", "Marcus@Heller.com"], ["password_digest", "$2a$12$G32Ax4acnyKE2FpM7KoECuKdIBtle8C2sS2oxuLaLQlruyvkGlj5G"], ["created_at", "2021-06-01 01:52:03.936687"], ["updated_at", "2021-06-01 01:52:03.936687"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Kathryn Bode"], ["email", "Kathryn@Bode.com"], ["password_digest", "$2a$12$gKzlHK5Iaaptv/UdxL116OtOfr8q6lQGatdjFW3nzxtWWT2NHY0Oi"], ["created_at", "2021-06-01 01:52:04.181641"], ["updated_at", "2021-06-01 01:52:04.181641"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Troy Conroy"], ["email", "Troy@Conroy.com"], ["password_digest", "$2a$12$uDo268CgpdT6N2h3bu25oOUIeT6WXlTbR4x6d6haJJOQxyPsAtYJ6"], ["created_at", "2021-06-01 01:52:04.427412"], ["updated_at", "2021-06-01 01:52:04.427412"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Clark Williamson"], ["email", "Clark@Williamson.com"], ["password_digest", "$2a$12$50Ao2dfaMKA.G9WH1nVyIO3d0.wsDZEZQ7nXLtN7Dke.S7Tm.suO2"], ["created_at", "2021-06-01 01:52:04.675555"], ["updated_at", "2021-06-01 01:52:04.675555"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Diane Sporer"], ["email", "Diane@Sporer.com"], ["password_digest", "$2a$12$1StQu2yZG1wfxH8wspo5XewdE.ykvNjQK9l0cNC3Oq9sPUBdw2oGW"], ["created_at", "2021-06-01 01:52:04.916711"], ["updated_at", "2021-06-01 01:52:04.916711"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Jerrod Hessel"], ["email", "Jerrod@Hessel.com"], ["password_digest", "$2a$12$2q4DjLWrGZw2zLnEjjWtceCtinv1pSJ7Vdq8KkEzQ4ZY1cqow1KPu"], ["created_at", "2021-06-01 01:52:05.158534"], ["updated_at", "2021-06-01 01:52:05.158534"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Yolanda Zemlak"], ["email", "Yolanda@Zemlak.com"], ["password_digest", "$2a$12$SaYsjWt/s/9nBxR0jzW11eHMcqmaoa5kun4h76JRLP9zUAhZ3vzBm"], ["created_at", "2021-06-01 01:52:05.400077"], ["updated_at", "2021-06-01 01:52:05.400077"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Challenger"], ["description", "[\"Optitron electroluminescent instrumentation\", \"Front/rear aluminum multi-link double joint suspension w/coil springs\", \"Body color sill extension\", \"Immobilizer system\", \"Pwr windows -inc: 1-touch open/close\", \"Acoustic control induction system (ACIS)\", \"Body color sill extension\", \"Tachometer\", \"Front & rear side curtain airbags\"]"], ["starting_price", 3091], ["current_price", 0], ["reserve_price", 6182], ["end_date", "2018-04-12 00:00:00"], ["created_at", "2021-06-01 01:52:05.408686"], ["updated_at", "2021-06-01 01:52:05.408686"], ["user_id", 41]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Challenger"], ["description", "[\"1-piece chrome window surround\", \"Front/rear crumple zones\", \"Scratch-resistant paint clearcoating\", \"Dual front illuminated visor vanity mirrors\", \"Front/rear stabilizer bars\", \"Body color fascias w/bright insert\", \"Eco drive indicator\", \"Energy absorbing steering column\", \"Anti-lock brake system (ABS) -inc: electronic brake force distribution (EBD), brake assist\"]"], ["starting_price", 2831], ["current_price", 0], ["reserve_price", 5662], ["end_date", "2020-12-13 00:00:00"], ["created_at", "2021-06-01 01:52:05.414639"], ["updated_at", "2021-06-01 01:52:05.414639"], ["user_id", 37]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Honda Accord"], ["description", "[\"Cargo compartment cover\", \"20\\\" x 9.0\\\" front & 20\\\" x 10.0\\\" rear aluminum wheels\", \"Illuminated entry\", \"Rear door child safety locks\", \"60/40 folding rear seat\", \"Body color fascias w/bright insert\", \"Dana 44/226mm rear axle\"]"], ["starting_price", 2649], ["current_price", 0], ["reserve_price", 5299], ["end_date", "2018-05-28 00:00:00"], ["created_at", "2021-06-01 01:52:05.421004"], ["updated_at", "2021-06-01 01:52:05.421004"], ["user_id", 36]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Rogue"], ["description", "[\"4.6L DOHC 32-valve V8 engine -inc: DI & SFI dual fuel injection, dual variable valve timing w/intelligence & electronically controlled intake (VVT-iE), aluminum block & heads\", \"Dual-stage front airbags w/occupant classification system\", \"Overhead console\", \"Full-time all-wheel drive\", \"60/40 split fold-down rear seat w/outboard adjustable headrests\", \"Air conditioning w/in-cabin microfilter\", \"Electronic control braking (ECB)\", \"Tilt steering column\"]"], ["starting_price", 3198], ["current_price", 0], ["reserve_price", 6396], ["end_date", "2021-05-24 00:00:00"], ["created_at", "2021-06-01 01:52:05.427887"], ["updated_at", "2021-06-01 01:52:05.427887"], ["user_id", 43]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Buick Encore"], ["description", "[\"Cargo compartment lamp\", \"Fog lamps\", \"60/40 split fold-down rear seat w/outboard adjustable headrests\", \"All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor\", \"Locking glove box\", \"Air conditioning w/in-cabin microfilter\", \"Trim-panel-mounted storage net\"]"], ["starting_price", 1993], ["current_price", 0], ["reserve_price", 3986], ["end_date", "2021-02-07 00:00:00"], ["created_at", "2021-06-01 01:52:05.434306"], ["updated_at", "2021-06-01 01:52:05.434306"], ["user_id", 40]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford F150"], ["description", "[\"Tachometer\", \"Rear body-color spoiler\", \"Anti-lock brake system (ABS) -inc: electronic brake force distribution (EBD), brake assist\", \"Front door tinted glass\", \"Passenger assist handles\", \"Cargo compartment lamp\", \"Passenger assist handles\", \"Zone body construction -inc: front/rear crumple zones, hood deformation point\", \"All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor\"]"], ["starting_price", 1245], ["current_price", 0], ["reserve_price", 2491], ["end_date", "2020-10-02 00:00:00"], ["created_at", "2021-06-01 01:52:05.441073"], ["updated_at", "2021-06-01 01:52:05.441073"], ["user_id", 42]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Camry"], ["description", "[\"Child safety rear door locks\", \"Trim-panel-mounted storage net\", \"Pwr rack & pinion performance tuned steering\", \"Dual bright exhaust tips\", \"Grain-matched wood trim -inc: center console, dash, door panels\"]"], ["starting_price", 3079], ["current_price", 0], ["reserve_price", 6159], ["end_date", "2018-06-29 00:00:00"], ["created_at", "2021-06-01 01:52:05.446728"], ["updated_at", "2021-06-01 01:52:05.446728"], ["user_id", 38]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Corolla"], ["description", "[\"Dana 44/226mm rear axle\", \"3-point ELR driver seat belt w/pretensioner & load limiter\", \"Fixed long mast antenna\", \"Torsion beam rear suspension w/stabilizer bar\", \"Tachometer\", \"Electronic control braking (ECB)\", \"Back-up camera\", \"Instrument cluster w/tachometer\", \"3-point ELR driver seat belt w/pretensioner & load limiter\"]"], ["starting_price", 3687], ["current_price", 0], ["reserve_price", 7374], ["end_date", "2019-12-30 00:00:00"], ["created_at", "2021-06-01 01:52:05.453039"], ["updated_at", "2021-06-01 01:52:05.453039"], ["user_id", 41]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Camry"], ["description", "[\"Dual front knee airbags\", \"Deluxe insulation group\", \"Dual note horn\", \"Steel side-door impact beams\", \"Front & rear side curtain airbags\"]"], ["starting_price", 2146], ["current_price", 0], ["reserve_price", 4292], ["end_date", "2017-12-01 00:00:00"], ["created_at", "2021-06-01 01:52:05.459820"], ["updated_at", "2021-06-01 01:52:05.459820"], ["user_id", 34]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Buick Enclave"], ["description", "[\"\\\"Flipper\\\" liftgate glass\", \"Acoustic glass windshield\", \"Engine mounts -inc: (2) solid, (1) liquid-filled\", \"160-amp alternator\", \"Integrated fog lamps\", \"3-point ELR/ALR front passenger seat belt w/pretensioner & load limiter\", \"4.6L DOHC 32-valve V8 engine -inc: DI & SFI dual fuel injection, dual variable valve timing w/intelligence & electronically controlled intake (VVT-iE), aluminum block & heads\", \"Silver finish interior door handles\", \"1-piece chrome window surround\"]"], ["starting_price", 4966], ["current_price", 0], ["reserve_price", 9933], ["end_date", "2021-04-19 00:00:00"], ["created_at", "2021-06-01 01:52:05.466501"], ["updated_at", "2021-06-01 01:52:05.466501"], ["user_id", 38]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Chevy Malibu"], ["description", "[\"Full-length floor console\", \"Enhanced accident response system unlocks the doors, shuts off the fuel pump and turns on interior lights after airbag deploys\", \"Intermittent rear wiper w/washer\", \"Deluxe insulation group\", \"Run flat tires\", \"1-piece chrome window surround\", \"Leather-wrapped parking brake handle\", \"Center console\", \"Torsion beam rear suspension w/stabilizer bar\"]"], ["starting_price", 4621], ["current_price", 0], ["reserve_price", 9242], ["end_date", "2018-04-06 00:00:00"], ["created_at", "2021-06-01 01:52:05.473536"], ["updated_at", "2021-06-01 01:52:05.473536"], ["user_id", 34]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "BMW M3"], ["description", "[\"Tilt/telescoping steering column\", \"4-wheel/4-channel anti-lock brake system (ABS)\", \"Enhanced accident response system unlocks the doors, shuts off the fuel pump and turns on interior lights after airbag deploys\", \"Pwr steering cooler\", \"Energy absorbing front/rear bumpers\", \"Body color door handles\", \"Anti-lock 4-wheel performance disc brakes\", \"Electronic throttle control system w/intelligence (ETCS-i)\"]"], ["starting_price", 4219], ["current_price", 0], ["reserve_price", 8439], ["end_date", "2019-06-12 00:00:00"], ["created_at", "2021-06-01 01:52:05.479794"], ["updated_at", "2021-06-01 01:52:05.479794"], ["user_id", 40]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKX"], ["description", "[\"Carpeted cargo area\", \"Cargo area lamp\", \"Front/rear stabilizer bars\", \"Body color grille\", \"Pwr windows -inc: 1-touch open/close\", \"Universal garage door opener\", \"Tachometer\"]"], ["starting_price", 2766], ["current_price", 0], ["reserve_price", 5532], ["end_date", "2020-06-01 00:00:00"], ["created_at", "2021-06-01 01:52:05.486519"], ["updated_at", "2021-06-01 01:52:05.486519"], ["user_id", 43]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.7ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Durango"], ["description", "[\"Rear window wiper/washer\", \"Scratch-resistant paint clearcoating\", \"Grain-matched wood trim -inc: center console, dash, door panels\", \"\\\"Flipper\\\" liftgate glass\", \"Tire pressure monitoring system (TPMS)\", \"Electronic parking brake\", \"Brake assist\", \"HomeLink universal transceiver\", \"3-point ELR/ALR front passenger seat belt w/pretensioner & load limiter\"]"], ["starting_price", 2847], ["current_price", 0], ["reserve_price", 5694], ["end_date", "2019-09-17 00:00:00"], ["created_at", "2021-06-01 01:52:05.493697"], ["updated_at", "2021-06-01 01:52:05.493697"], ["user_id", 44]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Chevy Malibu"], ["description", "[\"4-wheel/4-channel anti-lock brake system (ABS)\", \"4.6L DOHC 32-valve V8 engine -inc: DI & SFI dual fuel injection, dual variable valve timing w/intelligence & electronically controlled intake (VVT-iE), aluminum block & heads\", \"Acoustic control induction system (ACIS)\", \"Multi-info display -inc: driving range, average MPG, current MPG, average speed, outside temp, elapsed time, maintenance & diagnostic messages\", \"Electronic parking brake\", \"Rear-window defogger w/auto-off timer\"]"], ["starting_price", 1668], ["current_price", 0], ["reserve_price", 3336], ["end_date", "2018-11-13 00:00:00"], ["created_at", "2021-06-01 01:52:05.500299"], ["updated_at", "2021-06-01 01:52:05.500299"], ["user_id", 41]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Rogue"], ["description", "[\"Full-size spare tire w/aluminum alloy wheel\", \"Body color door handles\", \"Pwr rear liftgate release\", \"Integrated fog lamps\", \"Water-repellent windshield & front door glass\", \"Daytime running lights (DRL)\", \"Eco drive indicator\", \"Highline door trim panel\", \"Multi-reflector halogen headlamps\"]"], ["starting_price", 1933], ["current_price", 0], ["reserve_price", 3867], ["end_date", "2019-01-21 00:00:00"], ["created_at", "2021-06-01 01:52:05.506731"], ["updated_at", "2021-06-01 01:52:05.506731"], ["user_id", 43]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKX"], ["description", "[\"Passenger assist handles\", \"Front side-impact airbags\", \"4.6L DOHC 32-valve V8 engine -inc: DI & SFI dual fuel injection, dual variable valve timing w/intelligence & electronically controlled intake (VVT-iE), aluminum block & heads\", \"Rear window defroster\", \"Rear window wiper/washer\"]"], ["starting_price", 3765], ["current_price", 0], ["reserve_price", 7530], ["end_date", "2020-12-17 00:00:00"], ["created_at", "2021-06-01 01:52:05.512917"], ["updated_at", "2021-06-01 01:52:05.512917"], ["user_id", 37]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Audi A4"], ["description", "[\"Pwr accessory delay\", \"Floor carpeting\", \"1.8L DOHC 16-valve I4 engine -inc: engine cover\", \"Child restraint seat anchors for outboard positions\", \"Pwr windows -inc: 1-touch open/close\", \"6.5\\\" touch screen display\", \"Cargo compartment lamp\", \"3-point ELR driver seat belt w/pretensioner & load limiter\", \"Side-impact door beams\"]"], ["starting_price", 4274], ["current_price", 0], ["reserve_price", 8549], ["end_date", "2018-04-12 00:00:00"], ["created_at", "2021-06-01 01:52:05.519734"], ["updated_at", "2021-06-01 01:52:05.519734"], ["user_id", 36]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Challenger"], ["description", "[\"Remote fuel lid release\", \"Compact spare tire\", \"Speed control\", \"Immobilizer system\", \"Chrome bodyside molding\"]"], ["starting_price", 1215], ["current_price", 0], ["reserve_price", 2431], ["end_date", "2019-04-15 00:00:00"], ["created_at", "2021-06-01 01:52:05.527215"], ["updated_at", "2021-06-01 01:52:05.527215"], ["user_id", 44]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.4ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford Focus"], ["description", "[\"Front/rear side curtain airbags\", \"20\\\" x 9.0\\\" front & 20\\\" x 10.0\\\" rear aluminum wheels\", \"1.8L DOHC 16-valve I4 engine -inc: engine cover\", \"Security alarm\", \"Engine mounts -inc: (2) solid, (1) liquid-filled\", \"Front wheel drive\"]"], ["starting_price", 3228], ["current_price", 0], ["reserve_price", 6456], ["end_date", "2018-04-07 00:00:00"], ["created_at", "2021-06-01 01:52:05.533928"], ["updated_at", "2021-06-01 01:52:05.533928"], ["user_id", 38]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.5ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 34]]
+  [1m[36mBid Update All (0.6ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 34]]
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 34]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.4ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 35]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 35]]
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 35]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 36]]
+  [1m[36mBid Update All (0.4ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 36]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 36]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 37]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 37]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 37]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 38]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 38]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 38]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 39]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 39]]
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 39]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 40]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 40]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 40]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.2ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 41]]
+  [1m[36mBid Update All (0.3ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 41]]
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 41]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.2ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 42]]
+  [1m[36mBid Update All (0.2ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 42]]
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 42]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.2ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 43]]
+  [1m[36mBid Update All (0.2ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 43]]
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 43]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Update All (0.3ms)[0m  [1m[33mUPDATE "auctions" SET "user_id" = $1 WHERE "auctions"."user_id" = $2[0m  [["user_id", nil], ["user_id", 44]]
+  [1m[36mBid Update All (0.2ms)[0m  [1m[33mUPDATE "bids" SET "user_id" = $1 WHERE "bids"."user_id" = $2[0m  [["user_id", nil], ["user_id", 44]]
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 44]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids"[0m
+  [1m[36mAuction Load (0.3ms)[0m  [1m[34mSELECT "auctions".* FROM "auctions"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 29]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 29]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 31]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 31]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 23]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 23]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 22]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 22]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 27]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 27]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 30]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 30]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 25]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 25]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 21]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 21]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.4ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 28]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 28]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.3ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 26]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 26]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 24]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 24]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.1ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 33]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 33]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 38]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 38]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 37]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 37]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 40]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 40]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 32]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 32]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 35]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 35]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 36]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 36]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 34]]
+  [1m[36mAuction Destroy (0.3ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 34]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBid Load (0.2ms)[0m  [1m[34mSELECT "bids".* FROM "bids" WHERE "bids"."auction_id" = $1[0m  [["auction_id", 39]]
+  [1m[36mAuction Destroy (0.4ms)[0m  [1m[31mDELETE FROM "auctions" WHERE "auctions"."id" = $1[0m  [["id", 39]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "caleb"], ["email", "caleb@faul.com"], ["password_digest", "$2a$12$iMaE9DjJXj/6hGiL.1NI9O5zhG.nZVHTmCiTbPtvcUtJvI9s/exDC"], ["created_at", "2021-06-01 01:53:41.848509"], ["updated_at", "2021-06-01 01:53:41.848509"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cary Beier"], ["email", "Cary@Beier.com"], ["password_digest", "$2a$12$7Q/bDshWoamw4IIawr8PnOMUt1Xd9wsLG0Ld03mjGWqzxGDGT1tuu"], ["created_at", "2021-06-01 01:53:42.301990"], ["updated_at", "2021-06-01 01:53:42.301990"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mercedes Steuber"], ["email", "Mercedes@Steuber.com"], ["password_digest", "$2a$12$WDsaz2uVTgEInDCMDoejHOEtrKn3LwcSsPaQRl5PFOprkD1NNfSpO"], ["created_at", "2021-06-01 01:53:42.546218"], ["updated_at", "2021-06-01 01:53:42.546218"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Rodrick Lockman"], ["email", "Rodrick@Lockman.com"], ["password_digest", "$2a$12$IME7oDL.5ChByQfCwEuISOCBxOnE6WZyU6QZ63.9ho/926OWcDLOy"], ["created_at", "2021-06-01 01:53:42.804312"], ["updated_at", "2021-06-01 01:53:42.804312"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fabian Moen"], ["email", "Fabian@Moen.com"], ["password_digest", "$2a$12$oYJx3lykOzBzmUsM/qxh8.YtKqVP3uZOMQfC0q9GcfBHrnJrV5OEy"], ["created_at", "2021-06-01 01:53:43.044064"], ["updated_at", "2021-06-01 01:53:43.044064"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Norberto Murazik"], ["email", "Norberto@Murazik.com"], ["password_digest", "$2a$12$MsBcFf.Xu6dSRQsRxYJHJOMGl4wbWfyhU.lmhosBwUV9W8Yt.nTgS"], ["created_at", "2021-06-01 01:53:43.290450"], ["updated_at", "2021-06-01 01:53:43.290450"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grant Hilll"], ["email", "Grant@Hilll.com"], ["password_digest", "$2a$12$vhXP.QfsjkF3B1PuWRsZ3.YJKfqHtRMlF8955WNx/K5VbMY6UV4Ua"], ["created_at", "2021-06-01 01:53:43.538133"], ["updated_at", "2021-06-01 01:53:43.538133"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Marcellus Hudson"], ["email", "Marcellus@Hudson.com"], ["password_digest", "$2a$12$nq3ZesrcebeV71tTMHVhJe4M2ehdnfsIuJ1sVlhwqrI1cw4MvpcXG"], ["created_at", "2021-06-01 01:53:43.782292"], ["updated_at", "2021-06-01 01:53:43.782292"]]
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Shawn Friesen"], ["email", "Shawn@Friesen.com"], ["password_digest", "$2a$12$LYNyAShFVqq1VUP/Nglij..xwMt4muIn/nu.nAWg45XUGwBt6Oc/e"], ["created_at", "2021-06-01 01:53:44.039807"], ["updated_at", "2021-06-01 01:53:44.039807"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Don Beahan"], ["email", "Don@Beahan.com"], ["password_digest", "$2a$12$4VuLXRCR4QsfTEsCVCm.vOivxa0KE9aBQkXvYVE5BhFMl3nXZhDd6"], ["created_at", "2021-06-01 01:53:44.280128"], ["updated_at", "2021-06-01 01:53:44.280128"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Brice Rogahn"], ["email", "Brice@Rogahn.com"], ["password_digest", "$2a$12$lbdXWBDkeOFPN116fNNGHeKUlqWM1Z5qdz3dUv00kb9QqqzDCoEF."], ["created_at", "2021-06-01 01:53:44.519787"], ["updated_at", "2021-06-01 01:53:44.519787"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.6ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKX"], ["description", "[\"1-piece chrome window surround\", \"Black windshield molding\", \"Pwr rack & pinion performance tuned steering\", \"Trim-panel-mounted storage net\", \"Dual front & rear cup holders\", \"Dual front knee airbags\", \"Electronic parking brake\"]"], ["starting_price", 2991], ["current_price", 0], ["reserve_price", 5983], ["end_date", "2019-12-04 00:00:00"], ["created_at", "2021-06-01 01:53:44.527606"], ["updated_at", "2021-06-01 01:53:44.527606"], ["user_id", 54]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Pathfiner"], ["description", "[\"Instrument cluster w/tachometer\", \"Silver accent IP trim finisher -inc: silver shifter finisher\", \"Air conditioning w/in-cabin microfilter\", \"Cloth covered headliner\", \"Overhead console\", \"Deluxe insulation group\", \"Integrated fog lamps\", \"Acoustic glass windshield\", \"Highline door trim panel\"]"], ["starting_price", 2022], ["current_price", 0], ["reserve_price", 4045], ["end_date", "2019-06-27 00:00:00"], ["created_at", "2021-06-01 01:53:44.533475"], ["updated_at", "2021-06-01 01:53:44.533475"], ["user_id", 55]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Dodge Durango"], ["description", "[\"Anti-lock brake system (ABS) -inc: electronic brake force distribution (EBD), brake assist\", \"Zone body construction -inc: front/rear crumple zones, hood deformation point\", \"Quadra-Trac active on demand 4WD system\", \"Speed control\", \"Cargo-area tie down loops\", \"Electrochromic rearview mirror\", \"Electrochromic pwr folding heated mirrors w/memory -inc: puddle lamps, integrated turn signals, auto reverse tilt-down\"]"], ["starting_price", 3385], ["current_price", 0], ["reserve_price", 6771], ["end_date", "2018-11-24 00:00:00"], ["created_at", "2021-06-01 01:53:44.539125"], ["updated_at", "2021-06-01 01:53:44.539125"], ["user_id", 45]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "BMW X1"], ["description", "[\"Dual note horn\", \"Dual illuminated visor vanity mirrors\", \"Rear bench seat -inc: (3) adjustable headrests\", \"Body color fascias w/bright insert\", \"Optitron electroluminescent instrumentation\", \"Illuminated entry\", \"Anti-lock brake system (ABS) -inc: electronic brake force distribution (EBD), brake assist\", \"Highline door trim panel\", \"Impact-dissipating upper interior trim\"]"], ["starting_price", 996], ["current_price", 0], ["reserve_price", 1993], ["end_date", "2017-07-19 00:00:00"], ["created_at", "2021-06-01 01:53:44.543984"], ["updated_at", "2021-06-01 01:53:44.543984"], ["user_id", 51]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Nissan Versa"], ["description", "[\"Side-impact door beams\", \"Black roof molding\", \"Pwr 8-way driver seat w/4-way front passenger seat\", \"Full-size spare tire w/aluminum alloy wheel\", \"160-amp alternator\", \"Zone body construction -inc: front/rear crumple zones, hood deformation point\", \"Speed control\"]"], ["starting_price", 1349], ["current_price", 0], ["reserve_price", 2699], ["end_date", "2021-04-13 00:00:00"], ["created_at", "2021-06-01 01:53:44.549107"], ["updated_at", "2021-06-01 01:53:44.549107"], ["user_id", 52]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Camry"], ["description", "[\"6.1L SRT V8 \\\"Hemi\\\" engine\", \"Front/rear stabilizer bars\", \"Water-repellent windshield & front door glass\", \"Rear door child safety locks\", \"200mm front axle\"]"], ["starting_price", 1087], ["current_price", 0], ["reserve_price", 2175], ["end_date", "2018-01-02 00:00:00"], ["created_at", "2021-06-01 01:53:44.553957"], ["updated_at", "2021-06-01 01:53:44.553957"], ["user_id", 53]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.2ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Honda CR-V"], ["description", "[\"Tip start system\", \"Rear child seat tether anchors (LATCH)\", \"3-point ELR driver seat belt w/pretensioner & load limiter\", \"Security alarm\", \"Tire pressure monitoring system (TPMS)\"]"], ["starting_price", 3614], ["current_price", 0], ["reserve_price", 7229], ["end_date", "2018-02-11 00:00:00"], ["created_at", "2021-06-01 01:53:44.559142"], ["updated_at", "2021-06-01 01:53:44.559142"], ["user_id", 53]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Lincoln MKX"], ["description", "[\"Scratch-resistant paint clearcoating\", \"Dual chrome exhaust tips\", \"Multi-reflector halogen headlamps\", \"Engine mounts -inc: (2) solid, (1) liquid-filled\", \"Variable intermittent windshield wipers w/mist function\", \"Vehicle dynamics integrated management (VDIM) system -inc: vehicle stability control (VSC), traction control (TRAC)\"]"], ["starting_price", 2249], ["current_price", 0], ["reserve_price", 4498], ["end_date", "2020-02-16 00:00:00"], ["created_at", "2021-06-01 01:53:44.563454"], ["updated_at", "2021-06-01 01:53:44.563454"], ["user_id", 45]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Chevy Silverado"], ["description", "[\"20\\\" x 9.0\\\" front & 20\\\" x 10.0\\\" rear aluminum wheels\", \"Full-length floor console\", \"Side-impact door beams\", \"12V pwr outlet\", \"Steel side-door impact beams\", \"3-point ELR driver seat belt w/pretensioner & load limiter\", \"Roof mounted antenna\", \"Universal garage door opener\", \"All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor\"]"], ["starting_price", 2206], ["current_price", 0], ["reserve_price", 4413], ["end_date", "2020-04-19 00:00:00"], ["created_at", "2021-06-01 01:53:44.568339"], ["updated_at", "2021-06-01 01:53:44.568339"], ["user_id", 48]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Buick Enclave"], ["description", "[\"Black windshield molding\", \"Supplemental side curtain air bags\", \"Dual illuminated visor vanity mirrors\", \"Electrochromic rearview mirror\", \"Child safety rear door locks\", \"Intermittent rear wiper w/washer\"]"], ["starting_price", 1785], ["current_price", 0], ["reserve_price", 3570], ["end_date", "2020-09-26 00:00:00"], ["created_at", "2021-06-01 01:53:44.573411"], ["updated_at", "2021-06-01 01:53:44.573411"], ["user_id", 48]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford Mustang"], ["description", "[\"Dana 44/226mm rear axle\", \"3-point ELR/ALR rear seat belts at all positions\", \"625-amp maintenance-free battery\", \"Cargo-area tie down loops\", \"Electric speed-sensitive variable-assist pwr steering\", \"Cargo compartment cover\", \"Child safety rear door locks\", \"Monotone paint\", \"Dual-zone automatic climate control system -inc: smog sensor, auto recirculation, clear air filter, pollen filter\"]"], ["starting_price", 3429], ["current_price", 0], ["reserve_price", 6859], ["end_date", "2018-07-06 00:00:00"], ["created_at", "2021-06-01 01:53:44.579028"], ["updated_at", "2021-06-01 01:53:44.579028"], ["user_id", 47]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Ford F150"], ["description", "[\"Acoustic control induction system (ACIS)\", \"20\\\" x 9.0\\\" front & 20\\\" x 10.0\\\" rear aluminum wheels\", \"Back-up camera\", \"Body color front license plate brow\", \"Front wheel drive\", \"Driver & front passenger advanced multistage airbags w/occupant sensors\", \"Impact-dissipating upper interior trim\", \"Dual illuminated visor vanity mirrors\"]"], ["starting_price", 3041], ["current_price", 0], ["reserve_price", 6082], ["end_date", "2018-07-08 00:00:00"], ["created_at", "2021-06-01 01:53:44.584108"], ["updated_at", "2021-06-01 01:53:44.584108"], ["user_id", 49]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.2ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Audi A7"], ["description", "[\"Engine mounts -inc: (2) solid, (1) liquid-filled\", \"Sentry Key theft deterrent system\", \"Engine mounts -inc: (2) solid, (1) liquid-filled\", \"Front & rear side curtain airbags\", \"Battery saver\", \"Torsion beam rear suspension w/stabilizer bar\", \"Pwr accessory delay\"]"], ["starting_price", 1479], ["current_price", 0], ["reserve_price", 2958], ["end_date", "2020-11-11 00:00:00"], ["created_at", "2021-06-01 01:53:44.588980"], ["updated_at", "2021-06-01 01:53:44.588980"], ["user_id", 45]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Buick Enclave"], ["description", "[\"3-point ELR driver seat belt w/pretensioner & load limiter\", \"Daytime running lights (DRL)\", \"Tire pressure monitoring system (TPMS)\", \"Body color fascias w/bright insert\", \"Enhanced accident response system unlocks the doors, shuts off the fuel pump and turns on interior lights after airbag deploys\", \"P235/50R18 all-season tires\", \"Pwr accessory delay\", \"Carpeted cargo area\"]"], ["starting_price", 1215], ["current_price", 0], ["reserve_price", 2430], ["end_date", "2018-10-14 00:00:00"], ["created_at", "2021-06-01 01:53:44.596034"], ["updated_at", "2021-06-01 01:53:44.596034"], ["user_id", 51]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Honda Accord"], ["description", "[\"Optitron electroluminescent instrumentation\", \"60/40 split fold-down rear seat w/outboard adjustable headrests\", \"Electric speed-sensitive variable-assist pwr steering\", \"Tool kit\", \"3-point rear center seat belts\", \"Roof mounted antenna\", \"3-point ELR/ALR rear seat belts at all positions\", \"Dual-zone automatic climate control system -inc: smog sensor, auto recirculation, clear air filter, pollen filter\", \"Acoustic glass windshield\"]"], ["starting_price", 3981], ["current_price", 0], ["reserve_price", 7963], ["end_date", "2017-07-08 00:00:00"], ["created_at", "2021-06-01 01:53:44.601795"], ["updated_at", "2021-06-01 01:53:44.601795"], ["user_id", 46]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.7ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "BMW X1"], ["description", "[\"Front/rear stabilizer bars\", \"Front side-impact airbags\", \"Scratch-resistant paint clearcoating\", \"Fasten seat belt warning light/chime\", \"Electrochromic rearview mirror\", \"Body color folding remote-controlled pwr mirrors\", \"Driver & front passenger map pockets\", \"LATCH-ready child seat anchor system\"]"], ["starting_price", 1831], ["current_price", 0], ["reserve_price", 3663], ["end_date", "2016-11-23 00:00:00"], ["created_at", "2021-06-01 01:53:44.607541"], ["updated_at", "2021-06-01 01:53:44.607541"], ["user_id", 48]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.5ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Camry"], ["description", "[\"Dual chrome exhaust tips\", \"Xenon high-intensity discharge (HID) headlamps -inc: adaptive front lighting system, delayed auto-off\", \"Front/rear stabilizer bars\", \"Leather-wrapped parking brake handle\", \"Luxury front & rear floor mats w/logo\", \"Full-length floor console\"]"], ["starting_price", 2273], ["current_price", 0], ["reserve_price", 4547], ["end_date", "2017-01-28 00:00:00"], ["created_at", "2021-06-01 01:53:44.613346"], ["updated_at", "2021-06-01 01:53:44.613346"], ["user_id", 52]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Buick LaCrosse"], ["description", "[\"12V pwr outlet\", \"Zone body construction -inc: front/rear crumple zones, hood deformation point\", \"Carpeted floor & cargo area\", \"LED lights -inc: brake lamps, tail lamps, license plate\", \"4-wheel ventilated pwr disc brakes -inc: brake override system\", \"Collapsible steering column\", \"Side-impact door beams\", \"Pwr accessory delay\", \"Pwr rear liftgate release\"]"], ["starting_price", 3418], ["current_price", 0], ["reserve_price", 6837], ["end_date", "2017-07-08 00:00:00"], ["created_at", "2021-06-01 01:53:44.619131"], ["updated_at", "2021-06-01 01:53:44.619131"], ["user_id", 48]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.3ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "BMW X5"], ["description", "[\"6.5\\\" touch screen display\", \"Body color fascias w/bright insert\", \"Bright pedals\", \"Compact spare tire\", \"Air conditioning w/in-cabin microfilter\", \"Dual front & rear cup holders\"]"], ["starting_price", 3508], ["current_price", 0], ["reserve_price", 7017], ["end_date", "2019-12-17 00:00:00"], ["created_at", "2021-06-01 01:53:44.624215"], ["updated_at", "2021-06-01 01:53:44.624215"], ["user_id", 52]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAuction Create (0.2ms)[0m  [1m[32mINSERT INTO "auctions" ("title", "description", "starting_price", "current_price", "reserve_price", "end_date", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "Toyota Corolla"], ["description", "[\"Engine mounts -inc: (2) solid, (1) liquid-filled\", \"High performance suspension\", \"Leather-wrapped parking brake handle\", \"Electronic parking brake\", \"Front/rear spot-lamp illumination\"]"], ["starting_price", 1728], ["current_price", 0], ["reserve_price", 3456], ["end_date", "2017-09-28 00:00:00"], ["created_at", "2021-06-01 01:53:44.629558"], ["updated_at", "2021-06-01 01:53:44.629558"], ["user_id", 51]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2021-05-31 19:04:41 -0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/me2/.rvm/gems/ruby-2.7.2/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/me2/.rvm/gems/ruby-2.7.2/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.9ms | Allocations: 438)
+Completed 200 OK in 34ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 3521)
+
+

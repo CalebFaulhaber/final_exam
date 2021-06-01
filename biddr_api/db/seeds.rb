@@ -36,17 +36,17 @@ users = User.all
 
 NUM_AUCTIONS.times do
   created_at = Faker::Date.backward(days:365 * 5)
-  RESERVE = Random.new.rand(1_000..1_000)
-  STARTING = RESERVE / 2
-  END_DATE = created_at+3.days
+  reserve = Random.new.rand(1000..10000)
+  starting = reserve / 2
+  end_date = created_at+3.days
 
   a = Auction.create(
-    title: Faker::vehicle.make_and_model,
-    description: Faker::vehicle.standard_specs,
-    starting_price: STARTING,
+    title: Faker::Vehicle.make_and_model,
+    description: Faker::Vehicle.standard_specs,
+    starting_price: starting,
     current_price: 0,
-    reserve_price: RESERVE,
-    end_date: END_DATE,
+    reserve_price: reserve,
+    end_date: end_date,
     user: users.sample
   )
 

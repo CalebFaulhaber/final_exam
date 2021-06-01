@@ -1,4 +1,4 @@
-class Api::V1::AuctionsController < ApplicationController
+class Api::V1::AuctionsController < api::ApplicationController
 
   before_action :find_auction, only: [:show, :update, :destroy]
   before_action :authenticate_user!, only: [:create, :destroy]
@@ -6,7 +6,7 @@ class Api::V1::AuctionsController < ApplicationController
   def index
     auctions = Auction.order created_at: :desc
     render(
-      json: questions,
+      json: auctions,
       each_serializer: AuctionCollectionSerializer,
     )
   end
